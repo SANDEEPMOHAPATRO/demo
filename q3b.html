@@ -1,0 +1,16 @@
+<html>
+<h3> exp 3(b): javasript to capture on screen input and give output after multiplication</h3>
+Enter a number : <input id="num">
+<button onclick="add()">x10</button>
+<p id="abc">output will come here</p>
+<script>
+function add()
+{	var num1,num2;
+	num1=Number(document.getElementById("num").value);
+	num2=num1*10;
+	document.getElementById("abc").innerHTML="Given number multiplied by 10 is :"+num2;
+}
+
+</script>
+
+</html>
